@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67EE53BC2B97DD1E00C41C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EE53BB2B97DD1E00C41C3C /* AppDelegate.swift */; };
+		67EE53BE2B97DD1E00C41C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EE53BD2B97DD1E00C41C3C /* ViewController.swift */; };
+		67EE53C02B97DD2000C41C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EE53BF2B97DD2000C41C3C /* Assets.xcassets */; };
+		67EE53C32B97DD2000C41C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EE53C12B97DD2000C41C3C /* Main.storyboard */; };
+		67EE53CE2B97DD2000C41C3C /* timeguardianMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EE53CD2B97DD2000C41C3C /* timeguardianMacTests.swift */; };
+		67EE53D82B97DD2000C41C3C /* timeguardianMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EE53D72B97DD2000C41C3C /* timeguardianMacUITests.swift */; };
+		67EE53DA2B97DD2000C41C3C /* timeguardianMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EE53D92B97DD2000C41C3C /* timeguardianMacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67EE53CA2B97DD2000C41C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EE53B02B97DD1D00C41C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EE53B72B97DD1D00C41C3C;
+			remoteInfo = timeguardianMac;
+		};
+		67EE53D42B97DD2000C41C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EE53B02B97DD1D00C41C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EE53B72B97DD1D00C41C3C;
+			remoteInfo = timeguardianMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67EE53B82B97DD1D00C41C3C /* timeguardianMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeguardianMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EE53BB2B97DD1E00C41C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67EE53BD2B97DD1E00C41C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67EE53BF2B97DD2000C41C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67EE53C22B97DD2000C41C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67EE53C42B97DD2000C41C3C /* timeguardianMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = timeguardianMac.entitlements; sourceTree = "<group>"; };
+		67EE53C92B97DD2000C41C3C /* timeguardianMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeguardianMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EE53CD2B97DD2000C41C3C /* timeguardianMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeguardianMacTests.swift; sourceTree = "<group>"; };
+		67EE53D32B97DD2000C41C3C /* timeguardianMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timeguardianMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EE53D72B97DD2000C41C3C /* timeguardianMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeguardianMacUITests.swift; sourceTree = "<group>"; };
+		67EE53D92B97DD2000C41C3C /* timeguardianMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeguardianMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67EE53B52B97DD1D00C41C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EE53C62B97DD2000C41C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EE53D02B97DD2000C41C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67EE53AF2B97DD1D00C41C3C = {
+			isa = PBXGroup;
+			children = (
+				67EE53BA2B97DD1E00C41C3C /* timeguardianMac */,
+				67EE53CC2B97DD2000C41C3C /* timeguardianMacTests */,
+				67EE53D62B97DD2000C41C3C /* timeguardianMacUITests */,
+				67EE53B92B97DD1E00C41C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67EE53B92B97DD1E00C41C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67EE53B82B97DD1D00C41C3C /* timeguardianMac.app */,
+				67EE53C92B97DD2000C41C3C /* timeguardianMacTests.xctest */,
+				67EE53D32B97DD2000C41C3C /* timeguardianMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67EE53BA2B97DD1E00C41C3C /* timeguardianMac */ = {
+			isa = PBXGroup;
+			children = (
+				67EE53BB2B97DD1E00C41C3C /* AppDelegate.swift */,
+				67EE53BD2B97DD1E00C41C3C /* ViewController.swift */,
+				67EE53BF2B97DD2000C41C3C /* Assets.xcassets */,
+				67EE53C12B97DD2000C41C3C /* Main.storyboard */,
+				67EE53C42B97DD2000C41C3C /* timeguardianMac.entitlements */,
+			);
+			path = timeguardianMac;
+			sourceTree = "<group>";
+		};
+		67EE53CC2B97DD2000C41C3C /* timeguardianMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				67EE53CD2B97DD2000C41C3C /* timeguardianMacTests.swift */,
+			);
+			path = timeguardianMacTests;
+			sourceTree = "<group>";
+		};
+		67EE53D62B97DD2000C41C3C /* timeguardianMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67EE53D72B97DD2000C41C3C /* timeguardianMacUITests.swift */,
+				67EE53D92B97DD2000C41C3C /* timeguardianMacUITestsLaunchTests.swift */,
+			);
+			path = timeguardianMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67EE53B72B97DD1D00C41C3C /* timeguardianMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EE53DD2B97DD2000C41C3C /* Build configuration list for PBXNativeTarget "timeguardianMac" */;
+			buildPhases = (
+				67EE53B42B97DD1D00C41C3C /* Sources */,
+				67EE53B52B97DD1D00C41C3C /* Frameworks */,
+				67EE53B62B97DD1D00C41C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timeguardianMac;
+			productName = timeguardianMac;
+			productReference = 67EE53B82B97DD1D00C41C3C /* timeguardianMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67EE53C82B97DD2000C41C3C /* timeguardianMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EE53E02B97DD2000C41C3C /* Build configuration list for PBXNativeTarget "timeguardianMacTests" */;
+			buildPhases = (
+				67EE53C52B97DD2000C41C3C /* Sources */,
+				67EE53C62B97DD2000C41C3C /* Frameworks */,
+				67EE53C72B97DD2000C41C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67EE53CB2B97DD2000C41C3C /* PBXTargetDependency */,
+			);
+			name = timeguardianMacTests;
+			productName = timeguardianMacTests;
+			productReference = 67EE53C92B97DD2000C41C3C /* timeguardianMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67EE53D22B97DD2000C41C3C /* timeguardianMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EE53E32B97DD2000C41C3C /* Build configuration list for PBXNativeTarget "timeguardianMacUITests" */;
+			buildPhases = (
+				67EE53CF2B97DD2000C41C3C /* Sources */,
+				67EE53D02B97DD2000C41C3C /* Frameworks */,
+				67EE53D12B97DD2000C41C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67EE53D52B97DD2000C41C3C /* PBXTargetDependency */,
+			);
+			name = timeguardianMacUITests;
+			productName = timeguardianMacUITests;
+			productReference = 67EE53D32B97DD2000C41C3C /* timeguardianMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67EE53B02B97DD1D00C41C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					67EE53B72B97DD1D00C41C3C = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					67EE53C82B97DD2000C41C3C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 67EE53B72B97DD1D00C41C3C;
+					};
+					67EE53D22B97DD2000C41C3C = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 67EE53B72B97DD1D00C41C3C;
+					};
+				};
+			};
+			buildConfigurationList = 67EE53B32B97DD1D00C41C3C /* Build configuration list for PBXProject "timeguardianMac" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67EE53AF2B97DD1D00C41C3C;
+			productRefGroup = 67EE53B92B97DD1E00C41C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67EE53B72B97DD1D00C41C3C /* timeguardianMac */,
+				67EE53C82B97DD2000C41C3C /* timeguardianMacTests */,
+				67EE53D22B97DD2000C41C3C /* timeguardianMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67EE53B62B97DD1D00C41C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EE53C02B97DD2000C41C3C /* Assets.xcassets in Resources */,
+				67EE53C32B97DD2000C41C3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EE53C72B97DD2000C41C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EE53D12B97DD2000C41C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67EE53B42B97DD1D00C41C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EE53BE2B97DD1E00C41C3C /* ViewController.swift in Sources */,
+				67EE53BC2B97DD1E00C41C3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EE53C52B97DD2000C41C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EE53CE2B97DD2000C41C3C /* timeguardianMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EE53CF2B97DD2000C41C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EE53DA2B97DD2000C41C3C /* timeguardianMacUITestsLaunchTests.swift in Sources */,
+				67EE53D82B97DD2000C41C3C /* timeguardianMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67EE53CB2B97DD2000C41C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67EE53B72B97DD1D00C41C3C /* timeguardianMac */;
+			targetProxy = 67EE53CA2B97DD2000C41C3C /* PBXContainerItemProxy */;
+		};
+		67EE53D52B97DD2000C41C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67EE53B72B97DD1D00C41C3C /* timeguardianMac */;
+			targetProxy = 67EE53D42B97DD2000C41C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67EE53C12B97DD2000C41C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EE53C22B97DD2000C41C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67EE53DB2B97DD2000C41C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67EE53DC2B97DD2000C41C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		67EE53DE2B97DD2000C41C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = timeguardianMac/timeguardianMac.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GM543QUU5V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laohu.timeguardian.timeguardianMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		67EE53DF2B97DD2000C41C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = timeguardianMac/timeguardianMac.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GM543QUU5V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laohu.timeguardian.timeguardianMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		67EE53E12B97DD2000C41C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GM543QUU5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laohu.timeguardian.timeguardianMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timeguardianMac.app/Contents/MacOS/timeguardianMac";
+			};
+			name = Debug;
+		};
+		67EE53E22B97DD2000C41C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GM543QUU5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laohu.timeguardian.timeguardianMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/timeguardianMac.app/Contents/MacOS/timeguardianMac";
+			};
+			name = Release;
+		};
+		67EE53E42B97DD2000C41C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GM543QUU5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laohu.timeguardian.timeguardianMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = timeguardianMac;
+			};
+			name = Debug;
+		};
+		67EE53E52B97DD2000C41C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GM543QUU5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laohu.timeguardian.timeguardianMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = timeguardianMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67EE53B32B97DD1D00C41C3C /* Build configuration list for PBXProject "timeguardianMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EE53DB2B97DD2000C41C3C /* Debug */,
+				67EE53DC2B97DD2000C41C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EE53DD2B97DD2000C41C3C /* Build configuration list for PBXNativeTarget "timeguardianMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EE53DE2B97DD2000C41C3C /* Debug */,
+				67EE53DF2B97DD2000C41C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EE53E02B97DD2000C41C3C /* Build configuration list for PBXNativeTarget "timeguardianMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EE53E12B97DD2000C41C3C /* Debug */,
+				67EE53E22B97DD2000C41C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EE53E32B97DD2000C41C3C /* Build configuration list for PBXNativeTarget "timeguardianMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EE53E42B97DD2000C41C3C /* Debug */,
+				67EE53E52B97DD2000C41C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67EE53B02B97DD1D00C41C3C /* Project object */;
+}
